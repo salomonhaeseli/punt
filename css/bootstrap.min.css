@@ -1,0 +1,25 @@
+/*!
+ * Bootstrap v4.0.0-beta.2 (https://getbootstrap.com)
+ * Copyright 2011-2017 The Bootstrap Authors
+ * Copyright 2011-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+ .container-centered{
+  display: block;
+  text-align: center;
+ }
+
+.tooltip > .tooltip-inner {
+  background-color: #116CB4;
+  margin-bottom: 20px;
+}
+
+
+.tooltip.bs-tooltip-left .arrow::before{
+  right:0;
+  margin-top:-12px;
+  content:"";
+  border-width:5px 0 5px 5px;
+  border-left-color:#116CB4;
+}
