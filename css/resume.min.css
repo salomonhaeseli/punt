@@ -108,6 +108,10 @@ h2 {
         height: 250px;
     }
 
+    .smaller {
+        height: 100px;
+    }
+
 section.resume-section {
     border-bottom: 1px solid #dee2e6;
     padding-top: 7rem!important;
@@ -167,17 +171,22 @@ a:active, a:focus, a:hover {
     position: relative;
     top: 25%;
     width: 100%;
-    text-align: center;
+    padding-left: 25%;
+    text-align: left;
     margin-top: 30px;
 }
 
 .overlay a {
-    padding: 8px;
+    padding: 28px;
     text-decoration: none;
     font-size: 36px;
     color: #818181;
     display: block;
     transition: 0.3s;
+}
+
+#selected {
+    color: #f1f1f1;
 }
 
 .overlay a:hover, .overlay a:focus {
