@@ -23,3 +23,7 @@
   border-width:5px 0 5px 5px;
   border-left-color:#116CB4;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(190, 204, 252);
+}
