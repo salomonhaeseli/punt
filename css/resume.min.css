@@ -62,7 +62,8 @@ h2 {
 
 #sideNav .navbar-nav .nav-item .nav-link {
     font-weight: 600;
-    text-transform: uppercase
+    text-transform: uppercase;
+    /*transition: background-color 2.0s ease;*/
 }
 
 @media (min-width:992px) {
@@ -139,7 +140,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-    background-color: #116CB4!important
+    background-color: #116CB4
 }
 
 .text-primary {
