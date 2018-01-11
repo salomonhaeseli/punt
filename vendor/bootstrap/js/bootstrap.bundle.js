@@ -5909,13 +5909,13 @@ var ScrollSpy = function () {
 
         switch($link.text()){
           case "About":
-            $('#sideNav').css({'background-image':'url(img/about.jpg)',"transition":"background-image 2.0s ease"});
+            $('#sideNav').css({'background-image':'url(img/about.jpg)',"transition":"background-image 1.0s ease"});
             break;
           case "Experience":
-            $('#sideNav').css({'background-image':'url(img/experience.jpg)',"transition":"background-image 2.0s ease"})
+            $('#sideNav').css({'background-image':'url(img/experience.jpg)',"transition":"background-image 1.0s ease"})
             break;
           case "Education":
-            $('#sideNav').css({'background-image':'url(img/education.jpg)',"transition":"background-image 2.0s ease"});
+            $('#sideNav').css({'background-image':'url(img/education.jpg)',"transition":"background-image 1.0s ease"});
             break;
           case "Skills":
             $('#sideNav').css('background-color','white');
