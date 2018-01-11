@@ -5905,7 +5905,32 @@ var ScrollSpy = function () {
         $link.addClass(ClassName.ACTIVE);
       } else {
         // Set triggered link as active
-        $link.addClass(ClassName.ACTIVE); // Set triggered links parents as active
+        $link.addClass(ClassName.ACTIVE); // Set triggered links parents as active, hier wurde etwas angepasst
+
+        switch($link.text()){
+          case "About":
+            $('#sideNav').css({'background-image':'url(img/about.jpg)',"transition":"background-image 2.0s ease"});
+            break;
+          case "Experience":
+            $('#sideNav').css({'background-image':'url(img/experience.jpg)',"transition":"background-image 2.0s ease"})
+            break;
+          case "Education":
+            $('#sideNav').css({'background-image':'url(img/education.jpg)',"transition":"background-image 2.0s ease"});
+            break;
+          case "Skills":
+            $('#sideNav').css('background-color','white');
+            break;
+          case "Interests":
+            $('#sideNav').css('background-color','black');
+            break;
+          case "Awards":
+            $('#sideNav').css('background-color','brown');
+            break;
+          default:
+          $('#sideNav').css('background-color','#116CB4');
+
+        }
+
         // With both <ul> and <nav> markup a parent is the previous sibling of any nav ancestor
 
         $link.parents(Selector.NAV_LIST_GROUP).prev(Selector.NAV_LINKS + ", " + Selector.LIST_ITEMS).addClass(ClassName.ACTIVE); // Handle special case when .nav-link is inside .nav-item
