@@ -27,3 +27,7 @@
 .navbar-dark .navbar-nav .nav-link {
   color: rgb(190, 204, 252);
 }
+
+.carousel-inner {
+  padding-bottom: 20px;
+}
