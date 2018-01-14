@@ -269,10 +269,20 @@ a:active, a:focus, a:hover {
     margin-left: -4.5px;
 }
 
+.navbar-toggler {
+    border: 0px solid;
+}
+
 button.navbar-toggler {
     right: 20px;
     position: absolute;
     border: 0px solid;
 }
 
-.navbar-dark .navbar-toggler-icon{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")}
+.navbar-dark .navbar-toggler-icon{
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+}
+
+.logo-mobile{
+    width:100px;
+}
