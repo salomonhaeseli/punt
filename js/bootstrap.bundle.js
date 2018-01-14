@@ -5909,22 +5909,22 @@ var ScrollSpy = function () {
 
         switch($link.text()){
           case "● Home":
-            $('#sideNav').css({'background-image':'url(img/about.jpg)',"transition":"background-image 1.0s ease"});
+            $('#sideNav').css({'background-image':'url(img/about.jpg)',"transition":"background-image 1.0s ease", 'background-size':'cover'});
             break;
           case "● Coming Up":
-            $('#sideNav').css({'background-image':'url(img/experience.jpg)',"transition":"background-image 1.0s ease"})
+            $('#sideNav').css({'background-image':'url(img/experience.jpg)',"transition":"background-image 1.0s ease", 'background-size':'cover'})
             break;
           case "● Ueber Uns":
-            $('#sideNav').css({'background-image':'url(img/education.jpg)',"transition":"background-image 1.0s ease"});
+            $('#sideNav').css({'background-image':'url(img/education.jpg)',"transition":"background-image 1.0s ease", 'background-size':'cover'});
             break;
           case "● Events":
-            $('#sideNav').css('background-color','white');
+            $('#sideNav').css({'background-image':'url(img/about.jpg)',"transition":"background-image 1.0s ease", 'background-size':'cover'});
             break;
           case "● Kontakt":
-            $('#sideNav').css('background-color','black');
+            $('#sideNav').css({'background-image':'url(img/education.jpg)',"transition":"background-image 1.0s ease", 'background-size':'cover'});
             break;
           default:
-          $('#sideNav').css('background-color','#116CB4');
+          $('#sideNav').css({'background-image':'url(img/about.jpg)',"transition":"background-image 1.0s ease", 'background-size':'cover'});
         }
 
         // With both <ul> and <nav> markup a parent is the previous sibling of any nav ancestor
