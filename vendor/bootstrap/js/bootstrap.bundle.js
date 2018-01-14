@@ -5908,23 +5908,20 @@ var ScrollSpy = function () {
         $link.addClass(ClassName.ACTIVE); // Set triggered links parents as active, hier wurde etwas angepasst
 
         switch($link.text()){
-          case "About":
+          case "Home":
             $('#sideNav').css({'background-image':'url(img/about.jpg)',"transition":"background-image 1.0s ease"});
             break;
-          case "Experience":
+          case "&#x25cf; Coming Up":
             $('#sideNav').css({'background-image':'url(img/experience.jpg)',"transition":"background-image 1.0s ease"})
             break;
-          case "Education":
+          case "&#x25cf; Ueber Uns":
             $('#sideNav').css({'background-image':'url(img/education.jpg)',"transition":"background-image 1.0s ease"});
             break;
-          case "Skills":
+          case "&#x25cf; Events":
             $('#sideNav').css('background-color','white');
             break;
-          case "Interests":
+          case "&#x25cf; Kontakt":
             $('#sideNav').css('background-color','black');
-            break;
-          case "Awards":
-            $('#sideNav').css('background-color','brown');
             break;
           default:
           $('#sideNav').css('background-color','#116CB4');
