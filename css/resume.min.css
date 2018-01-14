@@ -45,7 +45,7 @@ h2 {
 }
 
 .list-social-icons a:hover {
-    color: #bd5d38
+    color: #0056b3
 }
 
 .list-social-icons a .fa-lg {
@@ -57,7 +57,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-    color: #bd5d38
+    color: #0056b3
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -166,7 +166,7 @@ a {
 }
 
 a:active, a:focus, a:hover {
-    color: #824027
+    color: #0056b3
 }
 
 .overlay {
@@ -219,7 +219,7 @@ a:active, a:focus, a:hover {
     border-left: 2px solid rgb(190, 204, 252);
     margin-left: 10%;
     margin-top: 19px;
-    height: 264px;
+    height: 216px;
     position: absolute;
     z-index: -1;
 }
