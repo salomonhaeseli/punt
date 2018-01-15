@@ -21,16 +21,48 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
+
+}
+
+h1, h2, h4, h5, h6 {
     color: #343a40
 }
+
 
 h1 {
     font-size: 4.5rem;
     line-height: 4rem
 }
 
+h1{
+    color: #116CB4;
+    margin-bottom: 30px;
+}
+
 h2 {
     font-size: 3rem
+}
+
+h3 {
+    color: #116CB4;
+}
+
+
+.bg-primary {
+    background-color: #116CB4
+}
+
+.text-primary {
+    color: #116CB4!important
+}
+
+
+a {
+    color: #116CB4
+}
+
+a:active, a:focus, a:hover {
+    color: #116CB4
 }
 
 .subheading {
@@ -184,26 +216,8 @@ section.resume-section .resume-item .resume-date {
     }
 }
 
-.bg-primary {
-    background-color: #116CB4
-}
 
-.text-primary {
-    color: #116CB4!important
-}
 
-h1{
-    color: #116CB4;
-    margin-bottom: 30px;
-}
-
-a {
-    color: #116CB4
-}
-
-a:active, a:focus, a:hover {
-    color: #0056b3
-}
 
 .overlay {
     height: 0%;
