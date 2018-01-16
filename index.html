@@ -10,8 +10,8 @@
 
     <title>Studentenvereinigung PUNT</title>
 
-        <!-- Bootstrap core CSS -->
-        <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -27,14 +27,17 @@
     <link href="css/resume.min.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- reCaptcha für Kontaktfomular -->
+      <script src='https://www.google.com/recaptcha/api.js'></script>
+
   </head>
 
-<!--  <div class="logo-div">
+  <!-- wegen design auskommentiert -->
+  <div class="logo-div">
     <div class="center">
       <img class="logo" src="img/punt_logo.png">
     </div>
-    </div>-->
-
+    </div>
   <body id="page-top">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -76,8 +79,8 @@
           <a href="#events" onclick="closeNav()">&#x25cf; Events</a>
           <a href="#kontakt" onclick="closeNav()">&#x25cf; Kontakt</a>
         </div>
-
-    </nav>
+      </div>
+    </nav><!-- Ende Navigation -->
 
     <div class="container-fluid p-0">
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="home">
@@ -100,29 +103,13 @@
               <a href="#">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
             </li>
           </ul>
         </div>
-      </section>
+      </section> <!-- Ende Home Social Media -->
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="comingup">
         <div class="my-auto">
@@ -153,15 +140,17 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
-            </div>
+            </div><!-- Ende Bildergallerie -->
 
                       <p class="mb-4">
                         Da es das letzte Mal so viel Spass gemacht hat, breiten wir uns schon für die nächste Pub Tour durch Brugg vor. Alle Liebhaber des gepflegten Laufens und Trinkens sind herzlich eingeladen.<br>
                         Treffpunkt ist am Freitag, 02.03.2018 um 19:00 Uhr vor dem ODEON Brugg. Danach geht es weiter via Laura’s Pub zum Havanna und zu Guter letzt, das Katarakt. Um 23:00 Uhr ist der offizielle Teil vorbei und es gilt open-end.
 
                       </p>
-                    </div>
-                  </div>
+                    </div><!-- Ende Eventbeschreibung -->
+                  </div><!-- Ende Event -->
+
+
                   <div class="item">
                     <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion2" role="button" aria-expanded="false" aria-controls="exampleAccordion2">
                         <h3 class="mb-4">PIZZA SPASS</h3>
@@ -170,12 +159,12 @@
                       <p class="mb-4">
                         Zusammen versuchen wir den Pizzaiolos wenigstens einen Abend Konkrruenz zu machen, mit unseren eigenen Pizzen.
                       </p>
-                  </div>
-                </div>
+                    </div><!-- Ende Eventbeschreibung -->
+                  </div><!-- Ende Event -->
 
         </div>
 
-      </section>
+      </section><!-- Ende Coming up -->
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="ueberuns">
         <div class="my-auto">
@@ -186,7 +175,7 @@
               <div class="subheading mb-3">VON STUDENTEN FÜR STUDENTEN<br>DER FHNW BRUGG / WINDISCH </div>
             </div>
 
-          </div>
+          </div><!-- Ende Beschreibung -->
 
           <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
@@ -199,10 +188,10 @@
                 <div><br></div>
               <img src="img/punt_logo%20-%20Kopie.png"/>
             </div>
-          </div>
+          </div> <!-- Ende Ziel -->
 
         </div>
-      </section>
+      </section><!-- Ende ÜBER UNS -->
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="events">
         <div class="my-auto">
@@ -233,14 +222,14 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
-              </div>
+              </div> <!-- Ende Bildergallerie -->
 
               <p class="mb-4">
                Danke für den tollen italienischen Abend mit euch!
               </p>
-            </div>
-          </div>
-          <div class="item">
+            </div><!-- Ende Eventbeschreibung -->
+          </div><!-- Ende Event -->
+            <div class="item">
             <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion4" role="button" aria-expanded="false" aria-controls="exampleAccordion4">
               <h3 class="mb-4">Pubtour</h3>
             </a>
@@ -248,17 +237,62 @@
               <p class="mb-4">
                  Die erste Pubtour mit euch war ein voller Erfolg. Bald werden wir die Pubs und Bars von Brugg wieder unsicher machen.
               </p>
-            </div>
-          </div>
+            </div><!-- Ende Eventbeschreibung -->
+          </div><!-- Ende Event -->
 
         </div>
-      </section>
+      </section><!-- Ende Events -->
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="kontakt">
         <div class="my-auto">
           <h2 class="mb-0">KONTAKTIERE UNS</h2>
-          <div class="subheading mb-3"><a href="mailto:info@punt.ch?Subject=Hallo%Verein%Punt" target="_top">SENDE UNS EINE EMAIL</a></div>
+          <div class="subheading mb-3"><a href="mailto:info@punt.ch?Subject=Hallo%Verein%Punt" target="_top">DIREKT PER MAIL</a></div>
         </div>
+          <form role="form" class="aquaria_form" onsubmit="return false">
+
+              <section id="formheader" class="col-sm-12" style="margin-bottom: 20px;">
+                  <h2 style="font-size: 30px;">Oder fülle das Formular aus</h2>
+              </section> <!-- Ende Header -->
+
+              <section id="email" class="input-group col-sm-6" style="margin-bottom: 20px;">
+                  <span class="input-group-addon" style="border-radius: 4px;"><i class="fa fa-envelope-o" style="font-size: 14px !important;"></i></span>
+                  <input type="email" name="Email" data-validation="email" data-err-msg="Falsche E-Mail-Adresse" class="form-control" placeholder="Deine E-Mail">
+              </section><!-- Ende Email -->
+
+              <section id="anrede" class="input-group col-sm-4" style="margin-bottom: 20px;">
+                  <span class="input-group-addon" style="border-radius: 4px;"><i class="fa fa-check" style="font-size: 14px !important;"></i></span>
+                  <select name="Anrede" data-validation="empty-value" data-err-msg="Bitte Anrede auswählen" class="form-control" >
+                      <option selected="" disabled="" value="null">Anrede</option>
+                      <option value="Frau">Frau</option>
+                      <option value="Herr">Herr</option>
+
+                  </select>
+              </section><!-- Ende Anrede Dropdown -->
+
+              <section id="vorname" class="input-group col-sm-6" style="margin-bottom: 20px;">
+                  <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                  <input type="text" name="Vorname" data-validation="empty-value" data-err-msg="Bitte den Vornamen angeben" class="form-control" placeholder="Vorname">
+              </section>
+              <section id="nachname" class="input-group col-sm-6" style="margin-bottom: 20px;">
+                  <span class="input-group-addon"><i class="fa fa-user"></i></span>
+              <input type="text" name="Name" data-validation="empty-value" data-err-msg="Bitte den  Namen angeben" class="form-control" placeholder="Name">
+          </section> <!-- Ende Vor- und Nachname -->
+
+
+              <section id="nachricht" class="input-group col-sm-12" style="margin-bottom: 20px;">
+                  <textarea name="Message" data-validation="" data-err-msg="" class="form-control" placeholder="Nachricht"></textarea>
+              </section> <!-- Ende Message -->
+
+
+              <section id="submit" class="input-group col-sm-5" style="margin-bottom: 20px;">
+                  <button class="btn btn-lg btn-primary btn-block" data-loading-text="Sending ..." autocomplete="off" type="submit" style="border-radius: 4px;">Nachricht versenden</button>
+              </section>
+
+
+          </form><!--Ende Kontaktformular -->
+
+          <div class="g-recaptcha" data-sitekey="6Lfy50AUAAAAALSL_lX2WaGdxR7A3U5Hmxe_vth9"></div> <!-- recaptcha -->
+
       </section>
 
     </div>
