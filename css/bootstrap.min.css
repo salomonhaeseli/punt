@@ -9,6 +9,10 @@
     background-color: #116CB4;
 }
 
+.btn-block {
+  width: 300px;
+}
+
  .container-centered{
   display: block;
   text-align: center;
